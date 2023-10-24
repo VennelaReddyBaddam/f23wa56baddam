@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var mydataRouter = require('./routes/mydata');
 var usersRouter = require('./routes/users');
 
-var mycomputation = require('./routes/mycomputation');
+var computation = require('./routes/Computation');
 var app = express();
 
 // view engine setup

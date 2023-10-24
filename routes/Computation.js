@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    var x = Math.random();
+    var x = Math.round(Math.random());
     var result = Math.exp(x);
 
     
